@@ -84,8 +84,6 @@ src/
 
 ![Quiz Screen](/public/assets/screenshots/question.png)
 
-![Right Question](/public/assets/screenshots/right-question.png)
-
 ![Wrong Question](/public/assets/screenshots/wrong-question.png)
 
 ![Results Low](/public/assets/screenshots/results-1.png)
