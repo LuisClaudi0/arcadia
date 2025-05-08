@@ -1,0 +1,22 @@
+{
+  "cards":[
+    {
+      "id": "1",
+      "img": "/assets/cards/kratos.webp",
+      "text": "Strength does not come from winning. Your struggles develop your strength.",
+      "char": "— Kratos, God of War"
+    },
+    {
+      "id": "2",
+      "img": "/assets/cards/mario.webp",
+      "text": "Life is a fight. You can run away... or you can fight back",
+      "char": "— Mario, Super Mario Galaxy"
+    },
+    {
+      "id": "3",
+      "img": "/assets/cards/link.webp",
+      "text": "Courage needs to be cultivated even when fear is present.",
+      "char": "— Link, The Legend of Zelda"
+    }
+  ]
+}

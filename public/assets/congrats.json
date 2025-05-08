@@ -1,0 +1,32 @@
+{
+  "data":[
+    {
+      "id":"1",
+      "title":"Hey, warrior! Not everyone starts out as a joystick master.",
+      "text":"Remember Kratos? He lost it all but came back stronger than ever! You've taken the first step, and that's already legendary. Ready to try again? The quest only ends when the boss goes down!",
+      "img": "/assets/img/congrats/congrats-kratos.png",
+      "shadow": "shadow-orange-300"
+    },
+    {
+      "id":"2",
+      "title":"Great job! You clearly know your way around the gaming world!",
+      "text":"Scoring like that proves you're like Link mid-quest: you know the way, but there are still some dungeons to conquer. Keep playing — next time, that Master Sword is yours!",
+      "img": "/assets/img/congrats/congrats-link.png",
+      "shadow": "shadow-green-600"
+    },
+    {
+      "id":"3",
+      "title":"INSANE! You're the kind of player Geralt would team up with to hunt monsters!",
+      "text":"You crushed this like you've unlocked every upgrade possible. Congrats — you didn't just play the quiz, you absolutely slayed it! Now go strut like Doom Slayer after a glory kill!",
+      "img": "/assets/img/congrats/congrats-geralt.png",
+      "shadow": "shadow-red-950"
+    },
+    {
+      "id":"4",
+      "title":"Whoa there! Looks like you tried to skip to the ending without playing the level…",
+      "text":"Why not hit that start button and show us your gamer skills? Even Mario has to jump over Goombas before saving the princess! Hit play and show what you're made of!",
+      "img": "/assets/img/congrats/congrats-mario.png",
+      "shadow": "shadow-zinc-600"
+    }
+  ]
+}
