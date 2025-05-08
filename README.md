@@ -80,21 +80,21 @@ src/
 
 ## 📸 Screenshots
 
-![Home Screen](public\assets\screenshots\menu.png)
+![Home Screen](/public/assets/screenshots/menu.png)
 
-![Quiz Screen](public\assets\screenshots\question.png)
+![Quiz Screen](/public/assets/screenshots/question.png)
 
-![Right Question](public\assets\screenshots\right-question.png)
+![Right Question](/public/assets/screenshots/right-question.png)
 
-![Wrong Question](public\assets\screenshots\wrong-question.png)
+![Wrong Question](/public/assets/screenshots/wrong-question.png)
 
-![Results Low](public\assets\screenshots\results-1.png)
+![Results Low](/public/assets/screenshots/results-1.png)
 
-![Results Medium](public\assets\screenshots\results-2.png)
+![Results Medium](/public/assets/screenshots/results-2.png)
 
-![Results High](public\assets\screenshots\results-3.png)
+![Results High](/public/assets/screenshots/results-3.png)
 
-![Page 404](public\assets\screenshots\page-404.png)
+![Page 404](/public/assets/screenshots/page-404.png)
 
 ---
 
