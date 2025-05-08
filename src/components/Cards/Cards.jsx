@@ -6,7 +6,7 @@ const Cards = () => {
   let cardsList = data?.cards || [];
 
   return(
-    <div className="flex flex-col xl:flex-row xl:gap-20 justify-center">
+    <div className="flex flex-col lg:flex-row lg:gap-20 justify-center">
       {cardsList.map((card, index) => (
         <div key={index} className="card-container">
           <section>

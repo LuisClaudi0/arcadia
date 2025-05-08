@@ -5,7 +5,7 @@ const HomeContent = () => {
   return(
     <div className="content">
       <section className="home-content__title">
-        <img src="/assets/img/controle.webp" alt="Controle" className="xl:h-30 h-20 w-auto xl:hover:animate-spin" />
+        <img src="/assets/img/controle.webp" alt="Controle" className="lg:h-30 h-20 w-auto lg:hover:animate-spin" />
         
         <div className="flex flex-col gap-2 items-center underline">
           <h1 className="title">Welcome to</h1>
@@ -14,7 +14,7 @@ const HomeContent = () => {
       </section>
 
       <section className="home-content__text">
-        <h1 className="w-5/6 text-base xl:w-1/2 xl:text-2xl">Here, each question is a phase, each correct answer is an XP gained and each error… well, it's just a respawn towards success!
+        <h1 className="w-5/6 text-base lg:w-1/2 lg:text-2xl">Here, each question is a phase, each correct answer is an XP gained and each error… well, it's just a respawn towards success!
         Test your knowledge, challenge your friends and show that you are the real boss of the games!</h1>
       </section>
 

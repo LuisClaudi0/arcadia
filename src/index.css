@@ -6,35 +6,35 @@
 
 @layer base{
   body{
-    @apply h-screen w-full xl:bg-black bg-zinc-950 max-h-screen ;
+    @apply h-screen w-full lg:bg-black bg-zinc-950 max-h-screen ;
   }
 }
 
 @layer components{
   .header{
-    @apply bg-black text-white font-orbitron flex items-center justify-center py-8 px-10 h-22 xl:justify-start xl:px-30 xl:h-24
+    @apply bg-black text-white font-orbitron flex items-center justify-center py-8 px-10 h-22 lg:justify-start lg:px-30 lg:h-24
   }
 
 
   .content{
-    @apply text-white font-orbitron w-full h-[calc(100vh-5.5rem)] flex flex-col items-center xl:bg-black bg-zinc-950 bg-repeat xl:bg-[url(/assets/img/wallpaper-2.webp)] bg-cover xl:bg-no-repeat;
+    @apply text-white font-orbitron w-full h-[calc(100vh-5.5rem)] flex flex-col items-center lg:bg-black bg-zinc-950 bg-repeat lg:bg-[url(/assets/img/wallpaper-2.webp)] bg-cover lg:bg-no-repeat;
   }
   .home-content__title{
-    @apply flex flex-col-reverse xl:flex-row gap-1 xl:gap-5 items-center justify-center pt-5 pb-2 xl:py-5;
+    @apply flex flex-col-reverse lg:flex-row gap-1 lg:gap-5 items-center justify-center pt-5 pb-2 lg:py-5;
   }
   .home-content__text{
     @apply w-full flex justify-center items-center text-center;
   }
   .title{
-    @apply text-cyan-500 text-3xl xl:text-4xl;
+    @apply text-cyan-500 text-3xl lg:text-4xl;
   }
   .home-content__link{
-    @apply items-center text-xl text-center py-2 mt-6 xl:mt-10 bg-cyan-500 w-3/6 xl:w-1/6 rounded-2xl cursor-pointer hover:bg-cyan-700
+    @apply items-center text-xl text-center py-2 mt-6 lg:mt-10 bg-cyan-500 w-3/6 lg:w-1/6 rounded-2xl cursor-pointer hover:bg-cyan-700
   }
 
 
   .card-container{
-    @apply h-75 w-80 cursor-pointer bg-cyan-500 rounded-2xl border-6 p-2 flex flex-col justify-center text-center items-center gap-2 mb-10 mt-10 xl:mt-15 xl:hover:animate-pulse xl:hover:scale-102 xl:duration-500
+    @apply h-75 w-80 cursor-pointer bg-cyan-500 rounded-2xl border-6 p-2 flex flex-col justify-center text-center items-center gap-2 mb-10 mt-10 lg:mt-15 lg:hover:animate-pulse lg:hover:scale-102 lg:duration-500
   }
 
 
@@ -42,22 +42,22 @@
     @apply w-full flex flex-col items-center
   }
   .question__container{
-    @apply mt-10 w-5/6 max-w-5/6 text-center bg-zinc-700 rounded-2xl shadow-md shadow-cyan-500
-    xl:w-1/2 xl:max-w-1/2 xl:bg-zinc-800;
+    @apply mt-8 w-5/6 max-w-5/6 text-center bg-zinc-700 rounded-2xl shadow-md shadow-cyan-500
+    lg:w-1/2 lg:max-w-1/2 lg:bg-zinc-800;
   }
   .question{
     @apply p-6 font-bold text-2xl text-shadow-sm break-words;
   }
   .answers{
-    @apply mt-10 flex flex-col gap-10 xl:flex-wrap xl:flex-row justify-center items-center w-full 
+    @apply mt-10 flex flex-col gap-5 lg:flex-wrap lg:flex-row justify-center items-center w-full 
   }
   .answer{
     @apply py-4 px-6 w-5/6 max-w-5/6 text-center text-xl text-shadow-lg cursor-pointer 
     hover:scale-103 duration-800 bg-zinc-500 shadow-md shadow-cyan-500 
-    rounded-2xl break-words xl:w-1/2 xl:max-w-1/2;
+    rounded-2xl break-words lg:w-1/2 lg:max-w-1/2;
   }
   .next-button{
-    @apply items-center text-xl text-center py-2 mt-6 xl:mt-10 bg-cyan-500 w-3/6 xl:w-1/6 rounded-2xl cursor-pointer hover:bg-cyan-700
+    @apply items-center text-xl text-center py-2 mt-6 lg:mt-10 bg-cyan-500 w-3/6 lg:w-1/6 rounded-2xl cursor-pointer hover:bg-cyan-700
   }
 
 
@@ -66,10 +66,11 @@
   }
 
 
-  .congrats-container{
-    @apply flex flex-col-reverse xl:flex-row justify-center items-center w-full h-screen gap-10 xl:gap-20
+
+  .results-container{
+    @apply text-white font-orbitron flex flex-col-reverse lg:flex-row justify-center items-center w-full h-screen gap-10 lg:gap-20 lg:bg-black bg-zinc-950 lg:bg-[url(/assets/img/wallpaper-congrats.png)] lg:bg-no-repeat bg-repeat bg-cover
   }
   .congrats-img{
-    @apply xl:w-100 w-70 shadow-xl rounded-xl xl:rounded-3xl mb-50 xl:mb-0 xl:hover:animate-pulse
+    @apply lg:w-100 w-60 shadow-xl rounded-xl lg:rounded-3xl lg:mb-0 lg:hover:animate-pulse
   }
 }

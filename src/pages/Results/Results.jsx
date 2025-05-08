@@ -22,28 +22,26 @@ const Results = () => {
   const currentCongrats = congratsData[index];
 
   return (
-    <div className="content xl:bg-[url(/assets/img/wallpaper-congrats.png)]">
-      <div className="congrats-container">
-        <img
-          src={`${currentCongrats?.img || ""}`}
-          className={`congrats-img ${currentCongrats?.shadow || ""}`}
-          alt="Congrats Mario"
-        />
+    <div className="results-container">
+      <img
+        src={`${currentCongrats?.img || ""}`}
+        className={`congrats-img ${currentCongrats?.shadow || ""}`}
+        alt="Congrats Mario"
+      />
 
-        <section className="text-center xl:w-2/5 w-4/5 flex flex-col items-center mt-30 xl:mt-0">
-          {score !== null && score !== undefined && (
-            <h1 className="font-bold text-4xl xl:mb-10 mb-4">Score: {score}</h1>
-          )}
+      <section className="text-center lg:w-2/5 w-4/5 flex flex-col items-center lg:mt-0">
+        {score !== null && score !== undefined && (
+          <h1 className="font-bold text-4xl">Score: {score}</h1>
+        )}
 
-          <h1 className="font-bold text-xl mb-5">{currentCongrats?.title}</h1>
+        <h1 className="font-bold text-xl mb-5">{currentCongrats?.title}</h1>
 
-          <h2>{currentCongrats?.text}</h2>
+        <h2>{currentCongrats?.text}</h2>
 
-          <Link to="/quiz" className="home-content__link mt-10 xl:w-2/4 w-3/4 bg-zinc-600 hover:bg-zinc-500">
-            {score !== null ? "Play again" : "Play now"}
-          </Link>
-        </section>
-      </div>
+        <Link to="/quiz" className="home-content__link mt-10 lg:w-2/4 w-3/4 bg-zinc-600 hover:bg-zinc-500">
+          {score !== null ? "Play again" : "Play now"}
+        </Link>
+      </section>
     </div>
   );
 };
